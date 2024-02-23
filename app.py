@@ -73,7 +73,7 @@ def user_input(user_question):
 
 
 def main():
-    logo_url = 'images/rudy.png'
+    logo_url = 'rudy.png'
     st.set_page_config("Chat PDF")
     st.header("Chat with PDF using Rudy AI 💁")
     st.sidebar.image(logo_url, width=150)
